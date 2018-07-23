@@ -1,4 +1,4 @@
-FROM gregory90/base:latest
+FROM debian:stretch
 
 ENV GO_VERSION 1.10
 
