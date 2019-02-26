@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-ENV GO_VERSION 1.11
+ENV GO_VERSION 1.12
 
 
 RUN apt-get update -y && apt-get install --no-install-recommends -y -q curl build-essential ca-certificates git mercurial bzr
